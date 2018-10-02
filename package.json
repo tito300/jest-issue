@@ -1,0 +1,20 @@
+{
+  "name": "for-debugging",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --detectOpenHandles"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "http-errors": "^1.7.1",
+    "jest": "^23.6.0",
+    "mongoose": "^5.3.0",
+    "portscanner": "^2.2.0",
+    "supertest": "^3.3.0",
+    "why-is-node-running": "^2.0.3"
+  }
+}
